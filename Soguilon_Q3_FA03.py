@@ -1,14 +1,23 @@
-#my arrays
-groceries = ["apples", "biscuits", "candy", "dairy", "eggs", "flour", "garlic", "isda"]
+#my array
+avenues = ["Avenues", "Avenue A", "Avenue B", "Avenue C", "Avenue D" ]
+
+streets = ["street 1", "street 2", "Street 3", "Street 4", "Street 5"]
 
 houses = [
-  [0], [A], [B], [C], [D],
-  [1], [A1], [B1], [C1], [D1],
-  [2], [A2], [B2], [C2], [D2],
-  [3], [A3], [B3], [C3], [D3],
-  [4], [A4], [B4], [C4], [D4],
-  [5], [A5], [B5], [C5], [D5]
+  ["A1", "B1", "C1", "D1"],
+  ["A2", "B2", "C2", "D2"],
+  ["A3", "B3", "C3", "D3"],
+  ["A4", "B4", "C4", "D4"],
+  ["A5", "B5", "C5", "D5"]
 ]
 
 #my codes
-print(houses[1][0])
+print("Layout of houses:")
+print(houses)
+for i in range(len(houses)):
+  print(streets[i])
+  print(houses[i])
+
+for j in range(len(houses)):
+  print(avenues[j])
+  print(houses[;][j])
